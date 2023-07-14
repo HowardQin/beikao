@@ -81,7 +81,7 @@ AS query_stmt
     SELECT c1 as k1, k2, k3, SUM(v1) FROM example_table
     WHERE k1 = 20160112 GROUP BY k1,k2,k3;
     ```
-3. 覆盖已存在的视图
+3. 创建或者覆盖已存在的视图
 
     ```sql
     CREATE OR REPLACE VIEW example_db.example_view
