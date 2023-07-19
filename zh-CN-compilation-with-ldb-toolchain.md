@@ -124,7 +124,7 @@ $ USE_AVX2=0 sh build.sh
 
 若支持则直接执行 `sh build.sh` 即可
 
-如需编译Debug版本，增加 BUILD_TYPE=Debug
+如需编译Debug版本的BE，增加 BUILD_TYPE=Debug
    
 ```
 $ BUILD_TYPE=Debug sh build.sh
